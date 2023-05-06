@@ -13,7 +13,7 @@ import com.hdfc.employeeapp.service.IEmployeeService;
 import com.hdfc.employeeapp.vo.EmployeeVO;
 
 @RestController
-@RequestMapping("/employee")
+@RequestMapping("/api/v1/employee")
 public class EmployeeRestController {
 
     @Autowired
@@ -21,8 +21,8 @@ public class EmployeeRestController {
 
     private static final Logger logger = LoggerFactory.getLogger(EmployeeRestController.class);
 
-    @GetMapping("/getById/{employeeId}")
-    public EmployeeVO getEmployeeByEmployeeId(@PathVariable long employeeId) throws EmployeeNotFoundException {
+    @GetMapping("/{employeeId}")
+    public EmployeeVO getEmployeeById(@PathVariable long employeeId) throws EmployeeNotFoundException {
         logger.info("Getting EmployeeId " + employeeId);
         return employeeService.getEmployeeById(employeeId);
     }

@@ -1,0 +1,93 @@
+2023-04-29 00:07:53,560 [https-jsse-nio-8080-exec-8] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3298
+2023-04-29 00:07:56,956 [https-jsse-nio-8080-exec-8] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3298
+2023-04-29 10:53:49,342 [main] INFO  c.h.e.EmployeeappApplication - Starting EmployeeappApplication using Java 17.0.7 on Nitro5 with PID 4716 (E:\HDFC\CapstoneProject\EmployeeManagementSystem\employeeapp\bin\main started by londh in E:\HDFC\CapstoneProject\EmployeeManagementSystem\employeeapp)
+2023-04-29 10:53:49,349 [main] INFO  c.h.e.EmployeeappApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-29 10:53:50,340 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-29 10:53:50,455 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2023-04-29 10:53:51,217 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+2023-04-29 10:53:51,238 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-29 10:53:51,240 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-29 10:53:51,474 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-29 10:53:51,477 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2017 ms
+2023-04-29 10:53:51,747 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-29 10:53:51,852 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-29 10:53:52,117 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-29 10:53:52,263 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-29 10:53:52,961 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-29 10:53:52,984 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-29 10:53:54,209 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-29 10:53:54,222 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 10:53:54,909 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-29 10:53:55,999 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8080], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/E:/HDFC/CapstoneProject/EmployeeManagementSystem/employeeapp/bin/main/HDFC_EMP.jks] using alias [HDFC_EMP] and with trust store [null]
+2023-04-29 10:53:56,029 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (https) with context path ''
+2023-04-29 10:53:56,044 [main] INFO  c.h.e.EmployeeappApplication - Started EmployeeappApplication in 7.375 seconds (JVM running for 8.068)
+2023-04-29 10:54:32,987 [https-jsse-nio-8080-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-29 10:54:32,989 [https-jsse-nio-8080-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-29 10:54:32,992 [https-jsse-nio-8080-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-04-29 10:54:33,930 [https-jsse-nio-8080-exec-5] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 405 ms
+2023-04-29 10:55:21,306 [https-jsse-nio-8080-exec-8] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 6
+2023-04-29 10:55:21,308 [https-jsse-nio-8080-exec-8] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 6
+2023-04-29 10:55:27,994 [https-jsse-nio-8080-exec-1] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3210
+2023-04-29 10:55:27,994 [https-jsse-nio-8080-exec-1] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3210
+2023-04-29 10:55:28,027 [https-jsse-nio-8080-exec-1] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3210, Employee Name: Aarav Sharma, Encrypted Date of Birth: yFDCZnVUIwG0zCUH4lE7Og==
+2023-04-29 10:55:34,516 [https-jsse-nio-8080-exec-2] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3110
+2023-04-29 10:55:34,517 [https-jsse-nio-8080-exec-2] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3110
+2023-04-29 10:56:11,850 [https-jsse-nio-8080-exec-7] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3218
+2023-04-29 10:56:11,851 [https-jsse-nio-8080-exec-7] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3218
+2023-04-29 10:56:11,861 [https-jsse-nio-8080-exec-7] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3218, Employee Name: Arnav Choudhary, Encrypted Date of Birth: I003HA00mzFK0BxFv5/wtg==
+2023-04-29 10:58:02,347 [main] INFO  c.h.e.EmployeeappApplication - Starting EmployeeappApplication using Java 17.0.7 on Nitro5 with PID 20096 (E:\HDFC\CapstoneProject\EmployeeManagementSystem\employeeapp\bin\main started by londh in E:\HDFC\CapstoneProject\EmployeeManagementSystem\employeeapp)
+2023-04-29 10:58:02,356 [main] INFO  c.h.e.EmployeeappApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-29 10:58:04,090 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-29 10:58:04,175 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2023-04-29 10:58:04,994 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+2023-04-29 10:58:05,018 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-29 10:58:05,021 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-29 10:58:05,168 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-29 10:58:05,169 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2690 ms
+2023-04-29 10:58:05,369 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-29 10:58:05,453 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-29 10:58:05,658 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-29 10:58:05,831 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-29 10:58:06,219 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-29 10:58:06,239 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-29 10:58:07,180 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-29 10:58:07,210 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 10:58:08,012 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-29 10:58:10,246 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8080], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/E:/HDFC/CapstoneProject/EmployeeManagementSystem/employeeapp/bin/main/HDFC_EMP.jks] using alias [HDFC_EMP] and with trust store [null]
+2023-04-29 10:58:10,280 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (https) with context path ''
+2023-04-29 10:58:10,298 [main] INFO  c.h.e.EmployeeappApplication - Started EmployeeappApplication in 9.119 seconds (JVM running for 10.19)
+2023-04-29 10:58:33,747 [https-jsse-nio-8080-exec-9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-29 10:58:33,749 [https-jsse-nio-8080-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-29 10:58:33,753 [https-jsse-nio-8080-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-04-29 10:58:33,804 [https-jsse-nio-8080-exec-9] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3218
+2023-04-29 10:58:33,805 [https-jsse-nio-8080-exec-9] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3218
+2023-04-29 10:58:33,871 [https-jsse-nio-8080-exec-9] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3218, Employee Name: Arnav Choudhary, Encrypted Date of Birth: I003HA00mzFK0BxFv5/wtg==
+2023-04-29 10:58:40,540 [https-jsse-nio-8080-exec-9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 306 ms
+2023-04-29 10:58:51,171 [https-jsse-nio-8080-exec-2] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3210
+2023-04-29 10:58:51,172 [https-jsse-nio-8080-exec-2] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3210
+2023-04-29 10:58:51,177 [https-jsse-nio-8080-exec-2] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3210, Employee Name: Aarav Sharma, Encrypted Date of Birth: yFDCZnVUIwG0zCUH4lE7Og==
+2023-04-29 11:00:39,048 [https-jsse-nio-8080-exec-6] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3218
+2023-04-29 11:00:39,049 [https-jsse-nio-8080-exec-6] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3218
+2023-04-29 11:00:39,058 [https-jsse-nio-8080-exec-6] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3218, Employee Name: Arnav Choudhary, Encrypted Date of Birth: I003HA00mzFK0BxFv5/wtg==
+2023-04-29 11:01:26,947 [https-jsse-nio-8080-exec-1] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3214
+2023-04-29 11:01:26,948 [https-jsse-nio-8080-exec-1] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3214
+2023-04-29 11:01:26,953 [https-jsse-nio-8080-exec-1] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3214, Employee Name: Aman Verma, Encrypted Date of Birth: ok55krFXUSMyGwyOnAkjIw==
+2023-04-29 11:03:25,831 [https-jsse-nio-8080-exec-9] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3214
+2023-04-29 11:03:25,832 [https-jsse-nio-8080-exec-9] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3214
+2023-04-29 11:03:25,844 [https-jsse-nio-8080-exec-9] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3214, Employee Name: Aman Verma, Encrypted Date of Birth: ok55krFXUSMyGwyOnAkjIw==
+2023-04-29 11:03:32,107 [https-jsse-nio-8080-exec-4] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3210
+2023-04-29 11:03:32,108 [https-jsse-nio-8080-exec-4] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3210
+2023-04-29 11:03:32,122 [https-jsse-nio-8080-exec-4] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3210, Employee Name: Aarav Sharma, Encrypted Date of Birth: yFDCZnVUIwG0zCUH4lE7Og==
+2023-04-29 11:04:03,380 [https-jsse-nio-8080-exec-5] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3218
+2023-04-29 11:04:03,381 [https-jsse-nio-8080-exec-5] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3218
+2023-04-29 11:04:03,391 [https-jsse-nio-8080-exec-5] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3218, Employee Name: Arnav Choudhary, Encrypted Date of Birth: I003HA00mzFK0BxFv5/wtg==
+2023-04-29 11:04:16,508 [https-jsse-nio-8080-exec-1] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3245
+2023-04-29 11:04:16,509 [https-jsse-nio-8080-exec-1] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3245
+2023-04-29 11:04:21,609 [https-jsse-nio-8080-exec-9] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3235
+2023-04-29 11:04:21,610 [https-jsse-nio-8080-exec-9] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3235
+2023-04-29 11:04:21,617 [https-jsse-nio-8080-exec-9] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3235, Employee Name: Nidhi Verma, Encrypted Date of Birth: 54E8L3MB0tONkr+8AozZfg==
+2023-04-29 11:07:21,528 [https-jsse-nio-8080-exec-4] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3280
+2023-04-29 11:07:21,529 [https-jsse-nio-8080-exec-4] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3280
+2023-04-29 11:07:57,114 [https-jsse-nio-8080-exec-5] INFO  c.h.e.c.EmployeeRestController - Getting EmployeeId 3210
+2023-04-29 11:07:57,114 [https-jsse-nio-8080-exec-5] INFO  c.h.e.service.EmployeeServiceImp - Getting employee by id: 3210
+2023-04-29 11:07:57,120 [https-jsse-nio-8080-exec-5] INFO  c.h.e.service.EmployeeServiceImp - Employee details - Employee Id: 3210, Employee Name: Aarav Sharma, Encrypted Date of Birth: yFDCZnVUIwG0zCUH4lE7Og==

@@ -1,13 +1,13 @@
-// package com.hdfc.employeeapp;
+package com.hdfc.employeeapp;
 
-// import org.junit.jupiter.api.Test;
-// import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-// @SpringBootTest
-// class EmployeeappApplicationTests {
+@SpringBootTest
+class EmployeeappApplicationTests {
 
-// 	@Test
-// 	void contextLoads() {
-// 	}
+	@Test
+	void contextLoads() {
+	}
 
-// }
+}
