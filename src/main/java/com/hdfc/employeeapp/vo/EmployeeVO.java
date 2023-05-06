@@ -21,7 +21,7 @@ public class EmployeeVO {
     private String dateOfBirth;
 
     private static final String ALGORITHM = "AES";
-    private static final String KEY = "09876543210987654321098765432109";
+    private static final String KEY = "mypassword123key";
 
     public static String encryptCode(String getinput) throws Exception {
         SecretKeySpec key = new SecretKeySpec(KEY.getBytes(), ALGORITHM);
